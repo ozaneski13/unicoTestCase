@@ -11,14 +11,14 @@ public class HudController : MonoBehaviour
 
     private void OnEnable()
     {
-        inventory.OnChanged += Refresh;
+        RegisterToEvents();
 
         Refresh();
     }
 
-    private void OnDisable()
+    private void RegisterToEvents()
     {
-        inventory.OnChanged -= Refresh;
+        inventory.OnChanged += Refresh;
     }
 
     private void Refresh()
@@ -52,5 +52,20 @@ public class HudController : MonoBehaviour
     private void OnButtonClicked(int index)
     {
         inventory.Select(index);
+    }
+
+    private void OnDisable()
+    {
+        UnregisterFromEvents();
+    }
+
+    private void OnDestroy()
+    {
+        UnregisterFromEvents();
+    }
+
+    private void UnregisterFromEvents()
+    {
+        inventory.OnChanged -= Refresh;
     }
 }

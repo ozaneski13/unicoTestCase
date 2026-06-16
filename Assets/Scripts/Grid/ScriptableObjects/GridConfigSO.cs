@@ -4,16 +4,14 @@ using UnityEngine;
 public class GridConfigSO : ScriptableObject
 {
     [SerializeField] private int columns;
-    [SerializeField] private int rows;
-    [SerializeField] private float cellSize;
-    [SerializeField] private float cellSpacing;
-    [SerializeField] private int placementRows;
-
     public int Columns => columns;
+    [SerializeField] private int rows;
     public int Rows => rows;
+    [SerializeField] private float cellSize;
     public float CellSize => cellSize;
+    [SerializeField] private float cellSpacing;
     public float CellSpacing => cellSpacing;
-    public int PlacementRows => placementRows;
+    [SerializeField] private int placementRows;
 
     public bool IsValid(Vector2Int c) => c.x >= 0 && c.x < columns && c.y >= 0 && c.y < rows;
     public bool IsInPlacementZone(Vector2Int c) => IsValid(c) && c.y < placementRows;

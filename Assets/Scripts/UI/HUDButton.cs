@@ -6,6 +6,7 @@ using System;
 public class HudButton : MonoBehaviour
 {
     [SerializeField] private Button button;
+    [SerializeField] private Image iconImage;
     [SerializeField] private TMP_Text nameText;
     [SerializeField] private TMP_Text countText;
     [SerializeField] private GameObject selectedHighlight;
@@ -18,11 +19,15 @@ public class HudButton : MonoBehaviour
         this.index = index;
         this.onClicked = onClicked;
 
+        if (iconImage != null)
+            iconImage.sprite = entry.Icon;
+
         if (nameText != null)
             nameText.text = entry.TurretPrefab.name;
 
         SetCount(entry.UsedAmount);
-        button.onClick.AddListener(Click);
+
+        RegisterToEvents();
     }
 
     public void SetCount(int count)
@@ -31,14 +36,29 @@ public class HudButton : MonoBehaviour
         button.interactable = count > 0;
     }
 
+    private void RegisterToEvents()
+    {
+        button.onClick.AddListener(Click);
+    }
+
+    private void Click()
+    {
+        onClicked?.Invoke(index);
+    }
+
     public void SetSelected(bool selected)
     {
         if (selectedHighlight != null)
             selectedHighlight.SetActive(selected);
     }
 
-    private void Click()
+    private void OnDestroy()
     {
-        onClicked?.Invoke(index);
+        UnregisterFromEvents();
+    }
+
+    private void UnregisterFromEvents()
+    {
+        button.onClick.RemoveListener(Click);
     }
 }

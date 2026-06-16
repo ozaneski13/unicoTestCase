@@ -11,14 +11,14 @@ public class GameStartedSO : ScriptableObject
         OnGameStarted = null;
     }
 
-    public void Subscribe(Action listener)
+    public void Subscribe(Action callback)
     {
-        OnGameStarted += listener;
+        OnGameStarted += callback;
     }
 
-    public void Unsubscribe(Action listener)
+    public void Unsubscribe(Action callback)
     {
-        OnGameStarted -= listener;
+        OnGameStarted -= callback;
     }
 
     public void Fire()

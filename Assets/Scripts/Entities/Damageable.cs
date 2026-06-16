@@ -14,6 +14,8 @@ public class Damageable : MonoBehaviour, IDamageable
     {
         Health = MaxHealth;
         IsDead = false;
+
+        OnHealthChanged?.Invoke(Health, MaxHealth);
     }
 
     public void TakeDamage(float amount)

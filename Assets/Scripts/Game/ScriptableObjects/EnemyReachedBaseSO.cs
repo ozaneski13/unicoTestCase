@@ -11,14 +11,14 @@ public class EnemyReachedBaseSO : ScriptableObject
         OnReached = null;
     }
 
-    public void Subscribe(Action listener)
+    public void Subscribe(Action callback)
     {
-        OnReached += listener;
+        OnReached += callback;
     }
 
-    public void Unsubscribe(Action listener)
+    public void Unsubscribe(Action callback)
     {
-        OnReached -= listener;
+        OnReached -= callback;
     }
 
     public void Fire()

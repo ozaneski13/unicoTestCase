@@ -6,13 +6,19 @@ public abstract class TurretAttacker : Attacker
     [SerializeField] protected LayerMask enemyLayer;
 
     protected float worldRange;
+    protected float cellWorldSize;
     private float cooldown;
 
     public void Setup(float cellWorldSize)
     {
+        this.cellWorldSize = cellWorldSize;
         worldRange = range * cellWorldSize;// range convert to world units.
         cooldown = 0f;
+
+        OnSetup();
     }
+
+    protected virtual void OnSetup() { }
 
     private void Update()
     {
@@ -21,8 +27,8 @@ public abstract class TurretAttacker : Attacker
         if (cooldown > 0f)
             return;
 
-        TryAttack();
-        cooldown = Interval;
+        if (TryAttack())
+            cooldown = Interval;
     }
 
     protected abstract bool TryAttack();

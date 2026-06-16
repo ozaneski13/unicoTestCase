@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 
-[CreateAssetMenu(fileName = "EnemyReleasedSO", menuName = "ScriptableObjects/EnemyReleasedSO")]
+[CreateAssetMenu(menuName = "Game/EnemyReleasedSO")]
 public class EnemyReleasedSO : ScriptableObject
 {
     private event Action<Enemy> OnEnemyReleased;

@@ -45,5 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlacementController
   grid: {fileID: 0}
-  cam: {fileID: 0}
-  turretPrefab: {fileID: 2910506851539529554, guid: 8eff5111a338b8e4fac56ea38a4e83e5, type: 3}
+  mainCam: {fileID: 0}
+  inventory: {fileID: 0}
+  transparentValidMaterial: {fileID: 2100000, guid: 289cb4e2b71282345a401e13515d87e0, type: 2}
+  transparentInvalidMaterial: {fileID: 2100000, guid: 57d429bb2538d53478212a37d19a1b4e, type: 2}

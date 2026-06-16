@@ -10,7 +10,6 @@ public class GridController : MonoBehaviour
     public int Rows => config.Rows;
     public float CellWorldSize => config.CellSize + config.CellSpacing;
 
-    private Dictionary<Vector2, GameObject> cells = new Dictionary<Vector2, GameObject>();
     private List<Material> cellMaterials = new List<Material>();
 
     private Turret[,] turrets;
@@ -32,6 +31,7 @@ public class GridController : MonoBehaviour
             for (int z = 0; z < config.Rows; z++)
             {
                 GameObject cell = GameObject.CreatePrimitive(PrimitiveType.Quad);
+                Destroy(cell.GetComponent<Collider>());
 
                 cell.transform.SetParent(origin);
                 cell.transform.localPosition = new Vector3(x * CellWorldSize, 0, z * CellWorldSize);
@@ -42,8 +42,6 @@ public class GridController : MonoBehaviour
                 Material material = cell.GetComponent<MeshRenderer>().material;
                 material.color = config.IsInPlacementZone(cellIndex) ? Color.green : Color.white;
                 cellMaterials.Add(material);
-
-                cells.Add(cellIndex, cell);
             }
         }
     }

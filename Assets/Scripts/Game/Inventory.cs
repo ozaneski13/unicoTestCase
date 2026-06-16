@@ -5,22 +5,20 @@ using System;
 public class Inventory : MonoBehaviour
 {
     private List<TurretInventory> turretInventory = new List<TurretInventory>();
-    private int selectedIndex = -1;
-
-    public event Action OnChanged;
-
     public List<TurretInventory> TurretInventory => turretInventory;
+
+    private int selectedIndex = -1;
     public int SelectedIndex => selectedIndex;
     public Turret SelectedPrefab => selectedIndex >= 0 ? turretInventory[selectedIndex].TurretPrefab : null;
 
-    public bool CanPlaceSelected() => selectedIndex >= 0 && turretInventory[selectedIndex].UsedAmount > 0;
+    public event Action OnChanged;
 
     public void Load(InventorySO source)
     {
         turretInventory.Clear();
 
         foreach (TurretInventory ti in source.TurretInventory)
-            turretInventory.Add(new TurretInventory { TurretPrefab = ti.TurretPrefab, MaxTurretAmount = ti.MaxTurretAmount, UsedAmount = ti.MaxTurretAmount });
+            turretInventory.Add(new TurretInventory { TurretPrefab = ti.TurretPrefab, Icon = ti.Icon, MaxTurretAmount = ti.MaxTurretAmount, UsedAmount = ti.MaxTurretAmount });
 
         selectedIndex = -1;
         OnChanged?.Invoke();
@@ -35,6 +33,12 @@ public class Inventory : MonoBehaviour
         OnChanged?.Invoke();
     }
 
+    public void Deselect()
+    {
+        selectedIndex = -1;
+        OnChanged?.Invoke();
+    }
+
     public void ConsumeSelected()
     {
         if (!CanPlaceSelected())
@@ -43,4 +47,6 @@ public class Inventory : MonoBehaviour
         turretInventory[selectedIndex].UsedAmount--;
         OnChanged?.Invoke();
     }
+
+    public bool CanPlaceSelected() => selectedIndex >= 0 && turretInventory[selectedIndex].UsedAmount > 0;
 }

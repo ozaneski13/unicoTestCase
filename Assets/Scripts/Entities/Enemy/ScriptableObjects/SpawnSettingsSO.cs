@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "SpawnSettingsSO", menuName = "ScriptableObjects/SpawnSettingsSO")]
+[CreateAssetMenu(fileName = "SpawnSettingsSO", menuName = "Enemy/SpawnSettingsSO")]
 public class SpawnSettingsSO : ScriptableObject
 {
     [SerializeField] private float firstSpawnDelay;

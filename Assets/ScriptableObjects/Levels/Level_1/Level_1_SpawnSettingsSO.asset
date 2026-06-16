@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8591e85b47b9d6b4d96854c277aac24e, type: 3}
   m_Name: Level_1_SpawnSettingsSO
   m_EditorClassIdentifier: Assembly-CSharp::SpawnSettingsSO
-  firstSpawnDelay: 5
+  firstSpawnDelay: 10
   spawnInterval: 2
   waveSO: {fileID: 11400000, guid: 586537fcdbd385348b0b6ce4930939c8, type: 2}

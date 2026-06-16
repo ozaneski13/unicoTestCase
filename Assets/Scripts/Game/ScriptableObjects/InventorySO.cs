@@ -5,6 +5,7 @@ using UnityEngine;
 public class TurretInventory
 {
     public Turret TurretPrefab;
+    public Sprite Icon;
     public int MaxTurretAmount;
     public int UsedAmount;
 }

@@ -26,7 +26,46 @@ public class EnemySpawner : MonoBehaviour
 
     private void Awake()
     {
+        RegisterToEvents();
+    }
+
+    private void RegisterToEvents()
+    {
         enemyReleasedSO.Subscribe(OnEnemyRefill);
+    }
+
+    private void OnEnemyRefill(Enemy enemy)
+    {
+        enemy.gameObject.SetActive(false);
+        activeEnemies.Remove(enemy);
+        enemyPool[enemy.Type].Add(enemy);
+
+        if (enemyPool[enemy.Type].Count < poolThreshold)
+            FillPool(enemy.Type, poolSize);
+
+        CheckCleared();
+    }
+
+    private void FillPool(EEnemyType type, int amount)
+    {
+        Enemy prefab = prefabByType[type];
+
+        for (int i = 0; i < amount; i++)
+        {
+            Enemy enemy = Instantiate(prefab, poolHolder);
+            enemy.gameObject.SetActive(false);
+
+            if (!enemyPool.ContainsKey(type))
+                enemyPool[type] = new List<Enemy>();
+
+            enemyPool[type].Add(enemy);
+        }
+    }
+
+    private void CheckCleared()
+    {
+        if (spawnFinished && activeEnemies.Count == 0)
+            OnLevelCleared?.Invoke();
     }
 
     public void Begin(SpawnSettingsSO settings)
@@ -80,46 +119,12 @@ public class EnemySpawner : MonoBehaviour
         Enemy enemy = enemyPool[type][^1];
         enemyPool[type].Remove(enemy);
 
-        enemy.gameObject.SetActive(true);
         enemy.Init(UnityEngine.Random.Range(0, gridController.Columns), gridController.Rows - 1, gridController);
+        enemy.gameObject.SetActive(true);
         activeEnemies.Add(enemy);
 
         if (enemyPool[type].Count < poolThreshold)
             FillPool(type, poolSize);
-    }
-
-    private void FillPool(EEnemyType type, int amount)
-    {
-        Enemy prefab = prefabByType[type];
-
-        for (int i = 0; i < amount; i++)
-        {
-            Enemy enemy = Instantiate(prefab, poolHolder);
-            enemy.gameObject.SetActive(false);
-
-            if (!enemyPool.ContainsKey(type))
-                enemyPool[type] = new List<Enemy>();
-
-            enemyPool[type].Add(enemy);
-        }
-    }
-
-    private void OnEnemyRefill(Enemy enemy)
-    {
-        enemy.gameObject.SetActive(false);
-        activeEnemies.Remove(enemy);
-        enemyPool[enemy.Type].Add(enemy);
-
-        if (enemyPool[enemy.Type].Count < poolThreshold)
-            FillPool(enemy.Type, poolSize);
-
-        CheckCleared();
-    }
-
-    private void CheckCleared()
-    {
-        if (spawnFinished && activeEnemies.Count == 0)
-            OnLevelCleared?.Invoke();
     }
 
     public void DespawnAll()
@@ -138,6 +143,11 @@ public class EnemySpawner : MonoBehaviour
     }
 
     private void OnDestroy()
+    {
+        UnregisterFromEvents();
+    }
+
+    private void UnregisterFromEvents()
     {
         enemyReleasedSO.Unsubscribe(OnEnemyRefill);
     }

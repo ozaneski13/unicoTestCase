@@ -1,0 +1,761 @@
+fileFormatVersion: 2
+guid: 9e026c0bd9c5b184d9c6a189253f53e1
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.1
+    animationPositionError: 0.1
+    animationScaleError: 0.1
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Dragon Fly Up
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dragon Mesh
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Dragon
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot/Dragon
+          L Toe0
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot/Dragon
+          L Toe0/Dragon L Toe01
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot/Dragon
+          L Toe1
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot/Dragon
+          L Toe1/Dragon L Toe11
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot/Dragon
+          L Toe2
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot/Dragon
+          L Toe2/Dragon L Toe21
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot/Dragon
+          R Toe0
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot/Dragon
+          R Toe0/Dragon R Toe01
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot/Dragon
+          R Toe1
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot/Dragon
+          R Toe1/Dragon R Toe11
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot/Dragon
+          R Toe2
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot/Dragon
+          R Toe2/Dragon R Toe21
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand/Dragon
+          L Finger0
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand/Dragon
+          L Finger0/Dragon L Finger01
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand/Dragon
+          L Finger0/Dragon L Finger01/Dragon L Finger02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand/Dragon
+          L Finger1
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand/Dragon
+          L Finger1/Dragon L Finger11
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand/Dragon
+          L Finger1/Dragon L Finger11/Dragon L Finger12
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair/Dragon
+          Hair02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair/Dragon
+          Hair02/Dragon Hair03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair/Dragon
+          Hair02/Dragon Hair03/Dragon Hair04
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair/Dragon
+          Hair02/Dragon Hair03/Dragon Hair04/Dragon Hair05
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair L
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair L/Dragon
+          Hair L02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair L/Dragon
+          Hair L02/Dragon Hair L03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair R
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair R/Dragon
+          Hair R02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair R/Dragon
+          Hair R02/Dragon Hair R03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Beard L
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Beard L/Dragon Beard L02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Beard L/Dragon Beard L02/Dragon Beard L03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Beard R
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Beard R/Dragon Beard R02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Beard R/Dragon Beard R02/Dragon Beard R03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Tongue
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Tongue/Dragon Tongue02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Tongue/Dragon Tongue02/Dragon Tongue03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon L Ear
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon L Ear/Dragon
+          L Ear02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon L Eyebrow
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon R Ear
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon R Ear/Dragon
+          R Ear02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon R Eyebrow
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand/Dragon
+          R Finger0
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand/Dragon
+          R Finger0/Dragon R Finger01
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand/Dragon
+          R Finger0/Dragon R Finger01/Dragon R Finger02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand/Dragon
+          R Finger1
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand/Dragon
+          R Finger1/Dragon R Finger11
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand/Dragon
+          R Finger1/Dragon R Finger11/Dragon R Finger12
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail/Dragon Tail02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail/Dragon Tail02/Dragon Tail03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail/Dragon Tail02/Dragon Tail03/Dragon
+          Tail04
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail/Dragon Tail02/Dragon Tail03/Dragon
+          Tail04/Dragon Tail05
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail/Dragon Tail02/Dragon Tail03/Dragon
+          Tail04/Dragon Tail05/Dragon Tail06
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail/Dragon Tail02/Dragon Tail03/Dragon
+          Tail04/Dragon Tail05/Dragon Tail06/Dragon Tail07
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dragon Fly Down
+      takeName: Take 001
+      internalID: -998496362607748373
+      firstFrame: 65
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dragon Mesh
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Dragon
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot/Dragon
+          L Toe0
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot/Dragon
+          L Toe0/Dragon L Toe01
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot/Dragon
+          L Toe1
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot/Dragon
+          L Toe1/Dragon L Toe11
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot/Dragon
+          L Toe2
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon L Thigh/Dragon L Calf/Dragon L Foot/Dragon
+          L Toe2/Dragon L Toe21
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot/Dragon
+          R Toe0
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot/Dragon
+          R Toe0/Dragon R Toe01
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot/Dragon
+          R Toe1
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot/Dragon
+          R Toe1/Dragon R Toe11
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot/Dragon
+          R Toe2
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon R Thigh/Dragon R Calf/Dragon R Foot/Dragon
+          R Toe2/Dragon R Toe21
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand/Dragon
+          L Finger0
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand/Dragon
+          L Finger0/Dragon L Finger01
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand/Dragon
+          L Finger0/Dragon L Finger01/Dragon L Finger02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand/Dragon
+          L Finger1
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand/Dragon
+          L Finger1/Dragon L Finger11
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon L Clavicle/Dragon L UpperArm/Dragon L Forearm/Dragon L Hand/Dragon
+          L Finger1/Dragon L Finger11/Dragon L Finger12
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair/Dragon
+          Hair02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair/Dragon
+          Hair02/Dragon Hair03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair/Dragon
+          Hair02/Dragon Hair03/Dragon Hair04
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair/Dragon
+          Hair02/Dragon Hair03/Dragon Hair04/Dragon Hair05
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair L
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair L/Dragon
+          Hair L02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair L/Dragon
+          Hair L02/Dragon Hair L03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair R
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair R/Dragon
+          Hair R02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Hair R/Dragon
+          Hair R02/Dragon Hair R03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Beard L
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Beard L/Dragon Beard L02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Beard L/Dragon Beard L02/Dragon Beard L03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Beard R
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Beard R/Dragon Beard R02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Beard R/Dragon Beard R02/Dragon Beard R03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Tongue
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Tongue/Dragon Tongue02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon Jaw/Dragon
+          Tongue/Dragon Tongue02/Dragon Tongue03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon L Ear
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon L Ear/Dragon
+          L Ear02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon L Eyebrow
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon R Ear
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon R Ear/Dragon
+          R Ear02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon Neck/Dragon Neck1/Dragon Neck2/Dragon Head/Dragon R Eyebrow
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand/Dragon
+          R Finger0
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand/Dragon
+          R Finger0/Dragon R Finger01
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand/Dragon
+          R Finger0/Dragon R Finger01/Dragon R Finger02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand/Dragon
+          R Finger1
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand/Dragon
+          R Finger1/Dragon R Finger11
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Spine/Dragon Spine1/Dragon Spine2/Dragon
+          Spine3/Dragon R Clavicle/Dragon R UpperArm/Dragon R Forearm/Dragon R Hand/Dragon
+          R Finger1/Dragon R Finger11/Dragon R Finger12
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail/Dragon Tail02
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail/Dragon Tail02/Dragon Tail03
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail/Dragon Tail02/Dragon Tail03/Dragon
+          Tail04
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail/Dragon Tail02/Dragon Tail03/Dragon
+          Tail04/Dragon Tail05
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail/Dragon Tail02/Dragon Tail03/Dragon
+          Tail04/Dragon Tail05/Dragon Tail06
+        weight: 1
+      - path: Root/Dragon/Dragon Pelvis/Dragon Tail/Dragon Tail02/Dragon Tail03/Dragon
+          Tail04/Dragon Tail05/Dragon Tail06/Dragon Tail07
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dragon Fall
+      takeName: Take 001
+      internalID: 3060872287085348379
+      firstFrame: 130
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dragon Crash On Ground
+      takeName: Take 001
+      internalID: 6641085478485924818
+      firstFrame: 185
+      lastFrame: 215
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: d0f1957b3a94bc240a9085d5dfecbf62,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

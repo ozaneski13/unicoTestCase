@@ -6,14 +6,16 @@ public class EnemyAttacker : Attacker
 
     private void OnEnable() => cooldown = 0f;
 
-    public void TickAttack(IDamageable target)
+    public bool TickAttack(IDamageable target)
     {
         cooldown -= Time.deltaTime;
 
         if (cooldown > 0f)
-            return;
+            return false;
 
         Attack(target);
         cooldown = Interval;
+
+        return true;
     }
 }
